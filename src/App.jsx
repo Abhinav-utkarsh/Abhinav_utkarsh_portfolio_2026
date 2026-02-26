@@ -1,7 +1,7 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Home from './pages/Home';
-import Projects from './pages/projects';
+import Projects from './pages/Projects';
 import Certifications from './pages/Certifications';
 import Experience from './pages/Experience';
 import SkillsPage from './pages/SkillsPage';
