@@ -74,7 +74,7 @@ const Contact = () => {
                       name="name" 
                       required 
                       className="w-full pl-12 pr-4 py-3.5 bg-slate-800/50 border border-slate-700 rounded-xl focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 text-white placeholder-slate-500 transition-all"
-                      placeholder="John Doe"
+                      placeholder="Abhinav Utkarsh"
                     />
                   </div>
                 </div>
@@ -89,7 +89,7 @@ const Contact = () => {
                       name="email" 
                       required 
                       className="w-full pl-12 pr-4 py-3.5 bg-slate-800/50 border border-slate-700 rounded-xl focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 text-white placeholder-slate-500 transition-all"
-                      placeholder="john@example.com"
+                      placeholder="Abhi@example.com"
                     />
                   </div>
                 </div>
