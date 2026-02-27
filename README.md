@@ -1,16 +1,40 @@
-# React + Vite
+**🚀 Abhinav Utkarsh – Portfolio**
+A modern, fully responsive, and animated personal portfolio website built using Vite, HTML, CSS, and JavaScript to showcase my skills, projects, certifications, and professional journey.
+🌐 Live Demo: https://abhinavutkarsh.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**📌 About The Project**
+This portfolio represents my journey as:
+🧪 Automation Test Engineer @ Cognizant
+🤖 GenAI Associate Certified (Cognizant & Oracle Cloud)
+💻 Frontend Developer
+⚡ AI-powered productivity enthusiast
+The goal of this portfolio is to create an interactive, smooth, and modern UI experience while maintaining performance and responsiveness across devices.
 
-Currently, two official plugins are available:
+**🛠️ Tech Stack**
+⚡ Vite – Fast development build tool
+🧱 HTML5 – Semantic structure
+🎨 CSS3 – Advanced styling & animations
+📜 JavaScript (ES6+) – Interactive UI logic
+📱 Responsive Design – Mobile & Tablet support
+🎯 Custom UI components & hover effects
+✨ Features
+🔥 Modern Hero Section with animated typography
+📱 Fully Responsive (Mobile / Tablet / Desktop)
+🎨 Interactive Navigation Bar (hover effects)
+🧠 Skills Section with dynamic UI cards
+📂 Projects Showcase Section
+🏆 Certifications Section
+📞 Contact Section
+⚡ Smooth scrolling and UI transitions
+🌙 Clean & minimal design system
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**📸 Sections Included**
+Hero Section
+About Me
+Skills
+Projects
+Certifications
+Contact
+Projects
+Certifications
+Contact
