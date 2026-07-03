@@ -2,29 +2,36 @@ import { motion } from 'framer-motion';
 import PageTransition from '../components/PageTransition';
 
 const workExperience = [
-  {
+    {
     id: 1,
-    role: "Programmer Analyst",
+    role: "Associate",
     company: "Cognizant | Bengaluru, India",
-    period: "December 2023 - Present",
-    description: "As a Programmer Analyst at Cognizant, I am responsible for designing and executing both manual and automation test cases for web-based applications. My work primarily focuses on functional, regression, and integration testing to ensure software quality and reliability. I actively use Jira board for tracking defects, managing sprints, and streamlining project tasks, while collaborating closely with developers and business analysts to resolve issues efficiently and deliver stable solutions."
+    period: "July 2026 - Present",
+    description: "Software Development Engineer in Test (SDET) with 3 years of professional experience at Cognizant, delivering test automation for large-scale Insurance and Healthcare enterprise applications. Proficient in Selenium WebDriver (Java), TestNG, API validation, and AI-assisted test automation using Playwright with GitHub Copilot, Gemini, and Claude. Passionate about Generative AI — certified in GenAI and Prompt Engineering, with hands-on experience using Vibe Coding, LLMs (ChatGPT, Gemini, Copilot, and Claude), and AI-assisted workflows. Independently built and deployed multiple full-stack web tools and AI-powered applications as personal and freelance projects, demonstrating self-driven initiative beyond core QA responsibilities. Part of the Guinness World Record-holding team at Cognizant (Vibe Coding) and MCA Gold Medalist."
   },
   {
     id: 2,
+    role: "Programmer Analyst",
+    company: "Cognizant | Bengaluru, India",
+    period: "December 2023 - June 2026",
+    description: "As a Programmer Analyst at Cognizant, I am responsible for designing and executing both manual and automation test cases for web-based applications. My work primarily focuses on functional, regression, and integration testing to ensure software quality and reliability. I actively use Jira board for tracking defects, managing sprints, and streamlining project tasks, while collaborating closely with developers and business analysts to resolve issues efficiently and deliver stable solutions."
+  },
+  {
+    id: 3,
     role: "Programmer Analyst Trainee",
     company: "Cognizant | Bengaluru, India",
     period: "September - December 2023",
     description: "As a Programmer Analyst Trainee, I gained hands-on experience in manual and functional testing, defect tracking with Jira, and Agile practices. I was also trained in automation testing as an SDET, working with Selenium WebDriver, Java, Maven, and TestNG, along with advance web technologies like HTML, CSS, and JavaScript."
   },
   {
-    id: 3,
+    id: 4,
     role: "Web Developer",
     company: "OctaNet Pvt.Ltd",
     period: "June 2023 - October 2023",
     description: "As a Web Developer at OctaNet Pvt. Ltd., I was involved in designing and developing responsive websites using HTML, CSS, JavaScript, and Bootstrap."
   },
   {
-    id: 4,
+    id: 5,
     role: "Web Developer Internship",
     company: "CadDesk Pvt.Ltd",
     period: "May 2023 - June 2023",
