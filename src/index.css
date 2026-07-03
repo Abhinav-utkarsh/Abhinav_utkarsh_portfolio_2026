@@ -29,3 +29,24 @@
   0% { background-position: 0 0; }
   100% { background-position: -100px -100px; }
 }
+/* Hide scrollbar while keeping scrolling enabled */
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+html,
+body {
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE & Edge */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Edge, Safari */
+}

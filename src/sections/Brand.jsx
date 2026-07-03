@@ -1,8 +1,12 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { projects } from '../components/projects';
+import { ExternalLink, Building2 } from "lucide-react";
+import { useState } from "react";
+import CompanyModal from "../components/CompanyModal";
 
 const Brand = () => {
+  const [showCompanyModal, setShowCompanyModal] = useState(false);
   return (
     <section id="brand" className="py-20 bg-transparent text-slate-300 relative overflow-hidden">
       {/* Background Decoration */}
@@ -10,7 +14,7 @@ const Brand = () => {
 
       <div className="container mx-auto px-6 md:px-12">
         <div className="text-center mb-16">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -19,11 +23,32 @@ const Brand = () => {
             Av_eSAFE <span className="text-sky-400">Hub</span>
           </motion.h2>
           <p className="text-slate-400">Innovation • Automation • Intelligence</p>
+          <div className="mt-8 flex flex-wrap justify-center gap-4">
+
+            <a
+              href="https://avesafe.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-sky-500 text-white font-semibold hover:bg-sky-600 transition-all duration-300 shadow-lg hover:shadow-sky-500/30"
+            >
+              <ExternalLink size={18} />
+              Visit Website
+            </a>
+
+            <button
+              onClick={() => setShowCompanyModal(true)}
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-slate-600 text-slate-300 hover:border-sky-400 hover:text-sky-400 transition-all duration-300"
+            >
+              <Building2 size={18} />
+              About Company
+            </button>
+
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <motion.div 
+            <motion.div
               key={project.id}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -33,7 +58,7 @@ const Brand = () => {
             >
               <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-sky-400 transition-colors">{project.title}</h3>
               <p className="text-slate-400 mb-6 line-clamp-2">{project.description}</p>
-              
+
               <div className="flex flex-wrap gap-2 mb-6">
                 {project.techStack.map((tech, i) => (
                   <span key={i} className="px-3 py-1 text-xs rounded-full bg-slate-800 text-sky-400 border border-slate-700">
@@ -49,6 +74,10 @@ const Brand = () => {
           ))}
         </div>
       </div>
+      <CompanyModal
+        isOpen={showCompanyModal}
+        onClose={() => setShowCompanyModal(false)}
+      />
     </section>
   );
 };

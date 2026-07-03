@@ -65,6 +65,7 @@ const About = () => {
           <div className="mb-6 text-lg space-y-1">
             <p><span className="font-bold text-sky-400">Designation:</span> Software Engineer</p>
             <p><span className="font-bold text-sky-400">Qualification:</span> MCA</p>
+            <p><span className="font-bold text-sky-400">Founder:</span> Av_eSAFE</p>
           </div>
           
           <p className="text-lg leading-relaxed mb-6">
