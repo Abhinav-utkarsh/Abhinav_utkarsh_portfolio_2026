@@ -1,6 +1,6 @@
 **🚀 Abhinav Utkarsh – Portfolio**
 A modern, fully responsive, and animated personal portfolio website built using Vite, HTML, CSS, and JavaScript to showcase my skills, projects, certifications, and professional journey.
-🌐 Live Demo: https://abhinavutkarsh.vercel.app/
+🌐 Live Demo: https://abhinavutkarsh.co.in
 
 **📌 About The Project**
 This portfolio represents my journey as:
