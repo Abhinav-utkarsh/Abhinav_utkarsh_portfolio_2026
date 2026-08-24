@@ -40,7 +40,7 @@ const Hero = () => {
                 My Journey
               </Link>
               <a
-                href="https://avesafe.netlify.app/"
+                href="https://avesafe.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group px-8 py-3 rounded-full border border-cyan-400 text-cyan-400 font-bold hover:bg-cyan-400 hover:text-slate-900 transition-all duration-300 shadow-lg hover:shadow-cyan-400/30"
