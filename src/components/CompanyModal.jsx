@@ -166,7 +166,7 @@ const CompanyModal = ({ isOpen, onClose }) => {
                 <div className="p-8 flex justify-center gap-4">
 
                     <a
-                        href="https://avesafe.netlify.app/"
+                        href="https://avesafe.vercel.app/"
                         target="_blank"
                         rel="noreferrer"
                         className="px-6 py-3 rounded-xl bg-sky-500 text-white font-semibold hover:bg-sky-600"
